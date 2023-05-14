@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto Boostrap</title>
+        <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/c538ed8188.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/estilos.css">
+    </head>
+   
+    <body>
+       <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark colorGris">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/img/codoacodo.png" alt="Logo" width="100px"  class="d-inline-block align-text-center">
+                Conf Bs As
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#laConferencia">La conferencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#losOradores">Los oradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#lugarYfecha">El lugar y la fecha</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#convierteteEnOrador">Conviértete en orador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorVerde" href="./pages/comprar_tickets.html">Comprar tickets</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+            <section id ="laConferencia" class="laConferencia ">
+              <div class="contenedorTextConf">
+                <h1>Conf Bs As</h1>
+                <p class="parrafoConferencia">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos
+                  que están creando el futuro de Internet. Ven a conocer a mienbros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                <div>
+                    <a href="#convierteteEnOrador" class="laconfboton1">Quiero ser orador</a>
+                    <a href="./pages/comprar_tickets.html" class="laconfboton2">Comprar tickets</a>
+                </div>   
+              </div> 
+            </section>
+       </header>
+
+       <main>
+            <section id="losOradores" class="container mt-2 mb-5" >
+                <h2 class="tituloRadores"><span>CONOCE A LOS</span> <br> ORADORES</h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card" >
+                            <img src="./assets/img/steve.jpg" alt="Steve Jobs" class="card-img-top">
+                            <div class="card-body">
+                              <span class="badge bg-warning text-dark">Javascript</span>
+                              <span class="badge bg-info text-dark">React</span>
+                              <h5 class="card-title"><b>Steve Jobs</b></h5>
+                              <p class="card-text">Un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple y accionista individual de The Walt Disney Company.</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card" >
+                            <img src="./assets/img/bill.jpg" alt="Bill Gates" class="card-img-top" >
+                            <div class="card-body">
+                              <span class="badge bg-warning text-dark">Javascript</span>
+                              <span class="badge bg-info text-dark">React</span>
+                              <h5 class="card-title"><b>Bill Gates</b></h5>
+                              <p class="card-text">Es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card" >
+                            <img src="./assets/img/ada.jpeg" alt="Ada" class="card-img-top">
+                            <div class="card-body">
+                              <span class="badge bg-secondary">Negocios</span>
+                              <span class="badge bg-danger">Startups</span>
+                              <h5 class="card-title"><b>Ada Lovelace</b></h5>
+                              <p class="card-text">Fue la primera en reconocer que la máquina tenía aplicaciones más allá del cálculo puro y en haber publicado lo que se reconoce hoy como el primer algoritmo  procesado por una máquina.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+            
+            <section id="lugarYfecha" class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 columnaIzq">
+
+                    </div>
+                    <div class="col-sm-12 col-md-6 columnaDer">
+                        <h2>Bs As - Octubre</h2>
+                        <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es 
+                          la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
+                          urbana en la costa sureste de la isla de Oah, la ciudad y el condado de Honolulu han formado una ciudad-condado 
+                          consolidada que cubre toda la ciudad (aproximandamente 600 Km<sup>2</sup> de superficie).</p>
+                        <button type="button" class="btn btn-outline-light">Conocé Más</button>
+                    </div>
+                </div>    
+            </section>
+
+            <section id="convierteteEnOrador" class="formularioOrador">
+                <h5 class=>CONVIÉRTETE EN UN</h5>
+                <h2><span>ORADOR</span></h2>
+                <p>Anótate como orador para dar una <u class="punticos">charla ignite</u>. Cuéntanos de qué quieres hablar!</p><br>
+                <form action="" autocomplete="on">
+                  <div class="row">
+                    <div class="col mb-3">
+                      <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                    </div>
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
+                  </div>
+                    <p class="text-start">Recuerda incluir un título para tu charla</p>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                      <button class="btn btn-success" type="button">Enviar</button>
+                    </div>
+                </form>
+            </section>
+       </main>
+     
+       <footer class="footer container-fluid mt-5">
+            <div class="contenedorFooter row text-center gap-0.5 w-75 h-100 mx-auto">
+                <a class="col-sm-12 col-md-2" href="">Preguntas Frecuentes</a>
+                <a class="col-sm-12 col-md-2" href="">Contáctanos</a>
+                <a class="col-sm-12 col-md-1" href="">Prensa</a>
+                <a class="col-sm-12 col-md-2" href="">Conferencias</a>
+                <a class="col-sm-12 col-md-2" href="">Términos y Condiciones</a>
+                <a class="col-sm-12 col-md-1" href="">Privacidad</a>
+                <a class="col-sm-12 col-md-1" href="">Estudiantes</a>
+            </div>
+            <a href=""><img class="wsp" src="./assets/img/whatsapp.png" alt="what"></a>
+       </footer>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
